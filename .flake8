@@ -1,0 +1,4 @@
+[flake8]
+ignore = W605, W503, F401, F403, E402, E203
+max-line-length = 120
+exclude = tests/*,.git,__pycache__,docs/source/conf.py,old,build,dist,.ipynb,.csv,.venv/,env,workflows,taxonomy/medication/llms/*
